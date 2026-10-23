@@ -1,3 +1,5 @@
+module Ej2(reversa) where
+
 reversa :: [a] -> [a]
 reversa (x:xs) = (reversa xs)++[x]
 reversa [] = []
