@@ -15,6 +15,7 @@
      esto es el comportamiento esperado estándar.
 ============================================================================ -}
 
+module Ej26 (divisores_v1) where
 -- | SOLUCIÓN 1: Tu propuesta original.
 -- Usa 'Integral', lo que le da flexibilidad (acepta Int o Integer).
 -- Es limpia, declarativa y muy idiomática en Haskell.
